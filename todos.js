@@ -1,6 +1,5 @@
-// // command line notebook
-// new - add a new to do
-// // list - list all to DOs
+// new - add a todo
+// list - list all todos
 // delete - remove specific todo
 // quit - quit app
 
