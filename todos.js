@@ -4,7 +4,7 @@
 // quit - quit app
 
 let cmd = prompt ('what would you like to do')
-const todos = ['buy chicken breast', 'go to city market']
+const todos = ['buy a new pen', 'go to market']
 
 while (cmd !== 'quit' && cmd !== 'q') {
     if (cmd === 'list') {
@@ -14,7 +14,7 @@ while (cmd !== 'quit' && cmd !== 'q') {
         }
         console.log(`******************`)
     } else if (cmd === 'new') {
-        const newTodo = prompt ('ok what is the new todo');
+        const newTodo = prompt ('ok, what is the new todo');
         todos.push(newTodo);
         console.log(`${newTodo} added to the list`)
     } else if (cmd === 'delete') {
